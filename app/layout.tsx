@@ -25,7 +25,6 @@ export default function RootLayout({
           <TextSizeManager />
           {children}
         </TextSizeProvider>
-        <Analytics />
       </body>
     </html>
   )

@@ -6,7 +6,7 @@ const nextConfig = {
   output: 'export',
   distDir: "docs",
   basePath: '/dupsugsite',
-  assetPrefix: '/dupsugsite/',
+  assetPrefix: '.',              // forces relative requests
   images: { unoptimized: true }
 }
 

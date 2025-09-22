@@ -4,7 +4,7 @@ const nextConfig = {
   typescript: { ignoreBuildErrors: true },
   images: { unoptimized: true },
   output: 'export',
-  distDir: "docsnew",
+  distDir: "docs",
   basePath: '/dupsugsite',
   assetPrefix: '/dupsugsite/',
   images: { unoptimized: true }

@@ -32,12 +32,12 @@ jobs:
       - name: Build static export
         run: |
           npm run build
-          cp docsnew/index.html docsnew/404.html   # SPA fallback
+          cp docs/index.html docs/404.html   # SPA fallback
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./docsnew
+          path: ./docs
 
   deploy:
     environment:

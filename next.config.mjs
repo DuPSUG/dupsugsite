@@ -5,8 +5,8 @@ const nextConfig = {
   images: { unoptimized: true },
   output: 'export',
   distDir: "docs",
-  basePath: '/DuPSUGSite',
-  assetPrefix: '/DuPSUGSite/',
+  basePath: '/dupsugsite',
+  assetPrefix: '/dupsugsite/',
   images: { unoptimized: true }
 }
 

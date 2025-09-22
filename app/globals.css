@@ -1,77 +1,80 @@
-@import 'tailwindcss';
-@import 'tw-animate-css';
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* Updated color scheme to match Windows PowerShell terminal */
+  --background: #012456; /* Classic PowerShell Blue */
+  --foreground: #ffffff; /* White text */
+  --card: rgba(0, 0, 0, 0.3); /* Dark semi-transparent background for proper contrast */
+  --card-foreground: #ffffff; /* White text on cards */
+  --popover: rgba(0, 0, 0, 0.9); /* Dark popover */
+  --popover-foreground: #ffffff; /* White text for popovers */
+  --primary: #00ff00; /* Terminal green for highlights */
+  --primary-foreground: #000000; /* Black text on green for better contrast */
+  --secondary: rgba(0, 0, 0, 0.2); /* Dark secondary background */
+  --secondary-foreground: #ffffff; /* White text */
+  --muted: rgba(0, 0, 0, 0.4); /* Dark muted background */
+  --muted-foreground: #cccccc; /* Light gray text for muted content */
+  --accent: #00ff00; /* Terminal green accent */
+  --accent-foreground: #000000; /* Black text on accent */
+  --destructive: #ff6b6b; /* Red for errors */
+  --destructive-foreground: #ffffff; /* White text on red */
+  --border: rgba(255, 255, 255, 0.3); /* Visible white border */
+  --input: rgba(0, 0, 0, 0.3); /* Dark input background */
+  --ring: rgba(0, 255, 0, 0.5); /* Green focus ring */
+  --chart-1: #00ff00; /* Terminal green */
+  --chart-2: #ffffff; /* White */
+  --chart-3: #cccccc; /* Light gray */
+  --chart-4: #012456; /* PowerShell blue */
+  --chart-5: #00ffff; /* Cyan accent */
+  --radius: 0.25rem; /* Minimal radius for terminal feel */
+  --sidebar: #012456; /* Same as background */
+  --sidebar-foreground: #ffffff; /* White text */
+  --sidebar-primary: #00ff00; /* Green accent */
+  --sidebar-primary-foreground: #000000; /* Black text */
+  --sidebar-accent: #00ff00; /* Green accent */
+  --sidebar-accent-foreground: #000000; /* Black text */
+  --sidebar-border: rgba(255, 255, 255, 0.3); /* Visible border */
+  --sidebar-ring: rgba(0, 255, 0, 0.5); /* Green focus ring */
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+  /* Dark mode uses same terminal colors */
+  --background: #012456;
+  --foreground: #ffffff;
+  --card: rgba(0, 0, 0, 0.3);
+  --card-foreground: #ffffff;
+  --popover: rgba(0, 0, 0, 0.9);
+  --popover-foreground: #ffffff;
+  --primary: #00ff00;
+  --primary-foreground: #000000;
+  --secondary: rgba(0, 0, 0, 0.2);
+  --secondary-foreground: #ffffff;
+  --muted: rgba(0, 0, 0, 0.4);
+  --muted-foreground: #cccccc;
+  --accent: #00ff00;
+  --accent-foreground: #000000;
+  --destructive: #ff6b6b;
+  --destructive-foreground: #ffffff;
+  --border: rgba(255, 255, 255, 0.3);
+  --input: rgba(0, 0, 0, 0.3);
+  --ring: rgba(0, 255, 0, 0.5);
+  --chart-1: #00ff00;
+  --chart-2: #ffffff;
+  --chart-3: #cccccc;
+  --chart-4: #012456;
+  --chart-5: #00ffff;
+  --sidebar: #012456;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #00ff00;
+  --sidebar-primary-foreground: #000000;
+  --sidebar-accent: #00ff00;
+  --sidebar-accent-foreground: #000000;
+  --sidebar-border: rgba(255, 255, 255, 0.3);
+  --sidebar-ring: rgba(0, 255, 0, 0.5);
 }
 
 @theme inline {
@@ -120,6 +123,117 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-mono;
   }
+
+  /* Text Size Classes */
+  .text-size-small {
+    font-size: 14px;
+  }
+
+  .text-size-small body {
+    font-size: 14px;
+  }
+
+  .text-size-medium {
+    font-size: 16px;
+  }
+
+  .text-size-medium body {
+    font-size: 16px;
+  }
+
+  .text-size-large {
+    font-size: 18px;
+  }
+
+  .text-size-large body {
+    font-size: 18px;
+  }
+
+  /* Added terminal-specific styles */
+  .terminal-prompt::before {
+    content: "PS C:\\> ";
+    color: var(--color-accent);
+    font-weight: bold;
+  }
+
+  .terminal-output {
+    white-space: pre-wrap;
+    font-family: "Courier New", monospace;
+  }
+
+  /* Custom scrollbar for terminal feel */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+}
+
+@layer components {
+  /* Fix prose spacing issues */
+  .prose-tight :where(ul, ol):not(:where(.not-prose *)) { 
+    margin: .5rem 0 !important; 
+  }
+  .prose-tight :where(li):not(:where(.not-prose *)) { 
+    margin: .125rem 0 !important; 
+  }
+  .prose-tight :where(li > p):not(:where(.not-prose *)) { 
+    margin: 0 !important; 
+  }
+  
+  /* Override default prose margins for better terminal spacing */
+  .prose-tight :where(p):not(:where(.not-prose *)) {
+    margin: 0.5rem 0 !important;
+  }
+  
+  .prose-tight :where(h1, h2, h3, h4, h5, h6):not(:where(.not-prose *)) {
+    margin: 1rem 0 0.5rem 0 !important;
+  }
+  
+  .prose-tight :where(h1):not(:where(.not-prose *)) {
+    margin: 1.5rem 0 1rem 0 !important;
+  }
+
+  /* Ensure consistent spacing for markdown content */
+  .markdown-content p {
+    margin: 0.5rem 0 !important;
+  }
+  
+  .markdown-content ul,
+  .markdown-content ol {
+    margin: 0.5rem 0 !important;
+    padding-left: 1.5rem !important;
+  }
+  
+  .markdown-content li {
+    margin: 0.125rem 0 !important;
+  }
+  
+  .markdown-content li p {
+    margin: 0 !important;
+  }
+  
+  .markdown-content h1,
+  .markdown-content h2,
+  .markdown-content h3,
+  .markdown-content h4,
+  .markdown-content h5,
+  .markdown-content h6 {
+    margin: 1rem 0 0.5rem 0 !important;
+  }
+
 }

@@ -7,7 +7,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'DuPSUG - Dutch PowerShell User Group',
-  description: 'Created with v0',
+  description: 'Created for the Dutch PowerShell User Group (DuPSUG) - a community for PowerShell enthusiasts in the Netherlands.',
   icons: {
     icon: '/placeholder-logo.png'
   }

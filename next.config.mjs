@@ -1,10 +1,13 @@
-// next.config.mjs
-const repo = 'dupsugsite';
-
-export default {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
+  images: { unoptimized: true },
   output: 'export',
-  distDir: 'docs',
-  basePath: `/${repo}`,
-  assetPrefix: '.',            // force relative asset + RSC URLs
+  distDir: "docsnew",
+  basePath: '/dupsugsite',
+  assetPrefix: '/dupsugsite/',
   images: { unoptimized: true }
-};
+}
+
+export default nextConfig

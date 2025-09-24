@@ -1,6 +1,6 @@
 ---
 title: "GuPSUG – Autumn 2025 🍂"
-date: "2024-09-23"
+date: "2025-09-23"
 author: "Admin"
 ---
 

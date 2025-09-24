@@ -43,3 +43,5 @@ Leusderend 36
 ## Tickets
 
 We kindly ask you to register your attendance through Meetup. Our events are made possible through sponsorship, and accurate attendance numbers help us secure continued support. Please make sure to register if you plan to attend, and update your RSVP if your plans change.
+
+[Register on Meetup🥰](https://www.meetup.com/dutch-powershell-user-group/events/311184609/)

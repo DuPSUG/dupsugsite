@@ -10,7 +10,7 @@ With the relaunch of the Dutch PowerShell User Group, we are also restarting our
 
 ## Next Session - Oktober 15 
 
-Bring Your Own Tools: Extend AI with PowerShell Functions
+### Bring Your Own Tools: Extend AI with PowerShell Functions
 
 With *Doug Finke*
 

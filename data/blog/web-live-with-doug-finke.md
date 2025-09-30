@@ -14,11 +14,16 @@ With the relaunch of the Dutch PowerShell User Group, we are also restarting our
 
 With *Doug Finke*
 
-> 16-time Microsoft MVP, Generative AI Engineer, Author. Researching the optimal, implementing the practical.P
+> 16-time Microsoft MVP, Generative AI Engineer, Author. Researching the optimal, implementing the practical.
 
 ### Date & Time
 
 October 15, 2025 - 19:00 CEST
+
+## Agenda
+18:50 - 19:00 Open up live stream for viewer
+19:00 - 19:05 Welcome and Introduction
+19:05 - 20:00 Bring Your Own Tools: Extend AI with PowerShell Functions - [Doug Finke](https://x.com/dfinke)
 
 [Timezone Link](https://everytimezone.com/s/93fa7d6c)
 
@@ -30,4 +35,4 @@ The online sessions are short, interactive presentations highlighting practical 
 
 Participation is free, but registration through Meetup is required to receive the livestream link.
 
-[Register on Meetup]()
+[Register on Meetup](https://www.meetup.com/dutch-powershell-user-group/events/311301344)

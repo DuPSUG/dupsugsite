@@ -17,27 +17,9 @@ We are committed to fostering a collaborative environment where IT professionals
 - **Network** with like-minded professionals
 - **Collaborate** on projects and solutions
 
-## What We Offer
+## Upcoming sessions
 
-### Regular Meetups
-Monthly gatherings featuring presentations, workshops, and hands-on sessions covering various PowerShell topics.
-
-### Workshops & Training
-In-depth sessions designed to help members master PowerShell scripting and automation techniques.
-
-### Community Support
-A welcoming space where beginners and experts alike can ask questions, share solutions, and grow together.
-
-## Our Community
-
-Whether you're just starting your PowerShell journey or you're a seasoned automation expert, DuPSUG welcomes you. Our diverse membership includes:
-
-- System Administrators
-- DevOps Engineers
-- Cloud Architects
-- Security Professionals
-- Developers
-- IT Consultants
+<script type="text/javascript" src="https://sessionize.com/api/v2/b7lqkmaz/view/GridSmart"></script>
 
 ## Get Involved
 

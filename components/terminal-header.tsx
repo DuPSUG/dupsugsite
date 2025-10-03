@@ -7,9 +7,9 @@ import { useTextSize } from "./text-size-provider";
 const navigationItems = [
   { name: "Contact", href: "/contact", icon: "📧" },
   { name: "Code of Conduct", href: "/code-of-conduct", icon: "📋" },
-  { name: "MeetUp", href: "https://www.meetup.com/dutch-powershell-user-group/", icon: "🎫" },
   { name: "About", href: "/about", icon: "ℹ️" },
-  { name: "GitHub", href: "https://github.com/dupsug", icon: "🐙" },
+  { name: "MeetUp", href: "https://www.meetup.com/dutch-powershell-user-group/", icon: "🎫" },
+  { name: "GitHub", href: "https://github.com/dupsug", icon: "🐙" }
 ];
 
 const isExternal = (href: string) => href.startsWith("http");

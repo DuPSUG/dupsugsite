@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'DuPSUG - Dutch PowerShell User Group',
   description: 'Created for the Dutch PowerShell User Group (DuPSUG) - a community for PowerShell enthusiasts in the Netherlands.',
   icons: {
-    icon: '/placeholder-logo.png'
+    icon: '/icon.png'
   }
 }
 

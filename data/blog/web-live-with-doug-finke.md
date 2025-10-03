@@ -1,14 +1,14 @@
 ---
-title: "DuPSUG Online – Bring Your Own Tools"
+title: "Virtual DuPSUG – Bring Your Own Tools"
 date: "2025-09-30"
 author: "Admin"
 ---
 
-# DuPSUG Online – Bring Your Own Tools
+# Virtual DuPSUG – Bring Your Own Tools
 
-With the relaunch of the Dutch PowerShell User Group, we are also restarting our online content. These sessions will feature members of the community sharing what excites them right now in the PowerShell and automation space. Each talk will be a single, focused presentation, delivered live and streamed for everyone who registers via Meetup.
+With the relaunch of the Dutch PowerShell User Group, we are also restarting our online content with the return of Virtual DuPSUG. These sessions will feature members of the community sharing what excites them right now in the PowerShell and automation space. Each talk will be a single, focused presentation, delivered live and streamed for everyone who registers via Meetup.
 
-## Next Session - Oktober 15 
+## Next Session - Oktober 15
 
 ### Bring Your Own Tools: Extend AI with PowerShell Functions
 

@@ -10,4 +10,4 @@ Our first virtual session of the Dutch PowerShell User Group was a great success
 
 We’re excited to see such strong participation as we bring DuPSUG back online and continue building our community around automation and PowerShell. If you missed it, the full recording is now available on YouTube.
 
-[![Watch the session on YouTube](virtualdupsug202510.png)](https://www.youtube.com/watch?v=KwOW_5srblg)
+[![Watch the session on YouTube](virtualdupsug202510play.png)](https://www.youtube.com/watch?v=KwOW_5srblg)

@@ -25,14 +25,6 @@ The event will take place on the 30th of October, 2025. All times are listed in 
 * 20:15 – 21:00 Make your automations more sustainable - Leo Visser](https://www.linkedin.com/in/leo-visser-4894a8227/)
 * 21:00 – 21:30 Networking
 
-## Speaker Information
-
-With the restart of DuPSUG, we are opening the stage for both familiar names and new voices. The CFP is currently live, and speakers will be announced shortly.
-
-## Sessions
-
-As we restart our events, sessions will continue to focus on advanced topics in automation, scripting, and DevOps. Final details will be shared once the CFP closes.
-
 ## Location
 
 We are restarting in-person at:

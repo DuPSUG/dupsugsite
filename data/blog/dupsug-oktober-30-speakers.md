@@ -22,7 +22,7 @@ The event will take place on the 30th of October, 2025. All times are listed in 
 * 18:45 – 19:00 Welcome from Rubicon / Organizers
 * 19:00 – 19:45 Azure Functions and network security.. Can it be done? - [Rex de Koning](https://www.linkedin.com/in/rexdekoning/)
 * 19:45 – 20:15 Break
-* 20:15 – 21:00 Make your automations more sustainable - Leo Visser](https://www.linkedin.com/in/leo-visser-4894a8227/)
+* 20:15 – 21:00 Make your automations more sustainable - [Leo Visser](https://www.linkedin.com/in/leo-visser-4894a8227/)
 * 21:00 – 21:30 Networking
 
 ## Location

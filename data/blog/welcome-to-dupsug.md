@@ -1,7 +1,7 @@
 ---
 title: "Welcome to DuPSUG"
 date: "2025-09-17"
-author: "Admin"
+author: "Jaap Brasser"
 ---
 
 # Welcome to DuPSUG

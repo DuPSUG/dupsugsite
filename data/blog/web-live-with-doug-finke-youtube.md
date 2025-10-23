@@ -1,7 +1,7 @@
 ---
 title: "Virtual DuPSUG – Bring Your Own Tools on YouTube📽️"
 date: "2025-10-18"
-author: "Admin"
+author: "Jaap Brasser"
 ---
 
 # Virtual DuPSUG – Bring Your Own Tools on YouTube📽️

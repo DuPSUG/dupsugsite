@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with PowerShell Scripting"
 date: "2024-01-15"
-author: "Admin"
+author: "Jaap Brasser"
 ---
 
 # Welcome to PowerShell Scripting

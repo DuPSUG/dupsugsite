@@ -1,7 +1,7 @@
 ---
 title: "Virtual DuPSUG – Bring Your Own Tools"
 date: "2025-09-30"
-author: "Admin"
+author: "Jaap Brasser"
 ---
 
 # Virtual DuPSUG – Bring Your Own Tools

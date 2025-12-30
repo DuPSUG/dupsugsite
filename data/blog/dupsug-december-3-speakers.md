@@ -1,6 +1,6 @@
 ---
 title: "DuPSUG – Happy Holidays 2025 🎉 - Retrospective"
-date: "2025-10-23"
+date: "2025-12-30"
 author: "Jaap Brasser"
 ---
 

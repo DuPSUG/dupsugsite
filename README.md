@@ -38,7 +38,7 @@ date → Publication date in YYYY-MM-DD format
 
 author → Post author (defaults to Admin if omitted)
 
-To add a new blog post, copy an existing file in data/blog/ and adjust the header and content.
+To add a new blog post, copy an existing file in [data/blog/](https://github.com/DuPSUG/dupsugsite/tree/main/data/blog) and adjust the header and content.
 
 ## 🔄 Deployment
 Deployment is handled automatically with GitHub Actions.

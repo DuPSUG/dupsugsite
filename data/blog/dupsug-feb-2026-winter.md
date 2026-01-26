@@ -25,9 +25,7 @@ We’ll start with dinner, dive into a focused security talk on keeping secrets 
 * **19:45 – 20:15** Break  
 * **20:15 – 21:00**  
   **Show and tell**  
-  Short 5–10 minute demos from attendees.  
-  Show something you built, improved, or rely on daily—scripts, workflows, VS Code extensions, or techniques that make life easier.  
-  You can use your own laptop or one of ours.
+  Short 5–10 minute demos from the community, this means **YOU**!
 
 ## Notes
 

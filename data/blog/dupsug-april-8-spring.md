@@ -60,3 +60,5 @@ Leusderend 36
 Please register via Meetup to help us plan effectively. These events depend on sponsorship, and accurate attendance numbers directly impact whether we can keep organizing them.
 
 Make sure to update your RSVP if your plans change.
+
+[👉 **Sign up via Meetup**](https://www.meetup.com/dutch-powershell-user-group/events/311356053/)

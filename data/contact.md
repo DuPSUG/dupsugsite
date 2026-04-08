@@ -1,7 +1,7 @@
 ---
 title: "Contact Us"
 date: "2025-09-22"
-author: "Admin"
+author: "Jaap Brasser"
 ---
 
 # Contact Dutch PowerShell User Group

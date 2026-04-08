@@ -1,7 +1,7 @@
 ---
 title: "About DuPSUG"
 date: "2025-09-22"
-author: "Admin"
+author: "Jaap Brasser"
 ---
 
 # About Dutch PowerShell User Group

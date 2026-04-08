@@ -1,7 +1,7 @@
 ---
 title: "Code of Conduct"
 date: "2025-09-22"
-author: "Admin"
+author: "Jaap Brasser"
 ---
 
 # Code of Conduct

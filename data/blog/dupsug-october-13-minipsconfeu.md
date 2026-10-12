@@ -1,5 +1,5 @@
 ---
-title: title: "DuPSUG – PSConfEU MiniCon 2026 🚀 - Virtual Booth"
+title: "DuPSUG – PSConfEU MiniCon 2026 🚀 - Virtual Booth"
 date: "2026-10-12"
 author: "Jaap Brasser"
 ---

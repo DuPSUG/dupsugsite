@@ -5,6 +5,7 @@ const nextConfig = {
   images: { unoptimized: true },
   output: 'export',
   distDir: "docs",
+  basePath: "/dupsugsite",
   images: { unoptimized: true }
 }
 
